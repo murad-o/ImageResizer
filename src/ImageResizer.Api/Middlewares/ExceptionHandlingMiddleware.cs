@@ -25,7 +25,7 @@ public class ExceptionHandlingMiddleware : IMiddleware
         }
     }
 
-    private int GetStatusCode(Exception exception)
+    private static int GetStatusCode(Exception exception)
     {
         return exception switch
         {
@@ -36,7 +36,7 @@ public class ExceptionHandlingMiddleware : IMiddleware
         };
     }
 
-    private ResponseModel<object> GetResponseModel(Exception e, int statusCode)
+    private static ResponseModel<object> GetResponseModel(Exception e, int statusCode)
     {
         return new ResponseModel<object>
         {
