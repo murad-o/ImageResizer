@@ -8,7 +8,6 @@
     <ItemGroup>
       <ProjectReference Include="..\ImageResizer.Abstractions\ImageResizer.Abstractions.csproj" />
       <ProjectReference Include="..\ImageResizer.Core\ImageResizer.Core.csproj" />
-      <ProjectReference Include="..\ImageResizer.Domain\ImageResizer.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
