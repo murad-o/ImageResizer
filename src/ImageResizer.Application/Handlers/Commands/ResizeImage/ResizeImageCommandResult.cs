@@ -2,7 +2,4 @@
 
 namespace ImageResizer.Application.Handlers.Commands.ResizeImage;
 
-public record ResizeImageCommandResult : IMediatorResult
-{
-    public Stream Stream { get; set; }
-}
+public record ResizeImageCommandResult(Stream Stream) : IMediatorResult;

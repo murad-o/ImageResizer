@@ -17,9 +17,6 @@ public class ResizeImageCommandHandler : ICommandHandler<ResizeImageCommand, Res
         var outputStream = await _imageResizerService.ResizeImageAsync(request.Stream,
             request.Width, request.Height, cancellationToken);
 
-        return new ResizeImageCommandResult
-        {
-            Stream = outputStream
-        };
+        return new ResizeImageCommandResult(outputStream);
     }
 }
