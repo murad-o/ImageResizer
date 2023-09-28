@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Core", "src\ImageResizer.Core\ImageResizer.Core.csproj", "{3B280888-FCD2-430E-969B-3116B53CF82D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Abstractions", "src\ImageResizer.Abstractions\ImageResizer.Abstractions.csproj", "{727F34DE-5B00-4A80-8D11-A8A0C50B075C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,7 @@ Global
 		{2D195BF3-BC90-4528-84F7-9815BE4D14AD} = {96FAFCB1-DCAC-48A4-B1FC-7EB499107F04}
 		{EA5B4388-B072-45E5-8DE9-A8D23841A50C} = {96FAFCB1-DCAC-48A4-B1FC-7EB499107F04}
 		{3B280888-FCD2-430E-969B-3116B53CF82D} = {96FAFCB1-DCAC-48A4-B1FC-7EB499107F04}
+		{727F34DE-5B00-4A80-8D11-A8A0C50B075C} = {96FAFCB1-DCAC-48A4-B1FC-7EB499107F04}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C59E23EC-9E26-4FFB-B95A-41B7C5593A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +47,9 @@ Global
 		{3B280888-FCD2-430E-969B-3116B53CF82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B280888-FCD2-430E-969B-3116B53CF82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B280888-FCD2-430E-969B-3116B53CF82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727F34DE-5B00-4A80-8D11-A8A0C50B075C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727F34DE-5B00-4A80-8D11-A8A0C50B075C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727F34DE-5B00-4A80-8D11-A8A0C50B075C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727F34DE-5B00-4A80-8D11-A8A0C50B075C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
